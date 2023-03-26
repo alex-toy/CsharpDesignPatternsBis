@@ -2,11 +2,16 @@
 
 namespace DesignPatterns.Commands
 {
-    public class HighLightText : ICommand
+    internal class BoldText : ICommand
     {
-        public HighLightText(string text, HighLightConfig config)
+        public BoldText(string text)
         {
 
+        }
+
+        public void Execute()
+        {
+            throw new NotImplementedException();
         }
 
         public void Execute(HighLightConfig config)

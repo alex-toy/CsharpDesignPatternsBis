@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7B27CE90-F51D-45C3-B9EB-9BEAF2907608}</ProjectGuid>
+    <ProjectGuid>{40D7A383-1714-4A51-AA43-51ECDE241E2C}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>DesignPatterns</RootNamespace>
-    <AssemblyName>DesignPatterns</AssemblyName>
+    <RootNamespace>Repository</RootNamespace>
+    <AssemblyName>Repository</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,15 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Commands\BoldText.cs" />
-    <Compile Include="Commands\Button.cs" />
-    <Compile Include="Commands\Canvas.cs" />
-    <Compile Include="Commands\ICommand.cs" />
-    <Compile Include="Commands\HighLightConfig.cs" />
-    <Compile Include="Commands\HighLightText.cs" />
-    <Compile Include="Commands\TextContext.cs" />
-    <Compile Include="Commands\Tool.cs" />
-    <Compile Include="DynamicCommand.cs" />
+    <Compile Include="Models\Book.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
